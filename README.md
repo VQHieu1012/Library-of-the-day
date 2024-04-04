@@ -1,2 +1,2 @@
 # Library-of-the-day
-Testing libraries/tools/frameworks for web scraping
+In this repository, I will do some tests and demo tools, frameworks, or libraries to help you with web scraping.
