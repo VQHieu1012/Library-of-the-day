@@ -12,7 +12,7 @@ If you want your scraper run faster, you can modify delay time.
 I also set 'headless=False' to see what actually happens when we run the scraper.
 Result: Nodriver does its best to bypass many types of bot-detection. I think you should give it a try in your project.
 
-Visit https://github.com/ultrafunkamsterdam/nodriver for more infomation.
+Visit source code: https://github.com/ultrafunkamsterdam/nodriver for more infomation.
 
 Note: This code is rarely updated since it is just a demo.
 """
