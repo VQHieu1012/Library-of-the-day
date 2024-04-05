@@ -76,7 +76,7 @@ async def main():
         # scroll down to get fully rendered JS
         for _ in range(4):
             await page.scroll_down(np.random.randint(150, 200))
-            await page.sleep(np.random.uniform(0.25, 1))  
+            await page.sleep(np.random.uniform(1, 3))  
         
         try:
             soup = bs(await page.get_content(), 'lxml')
@@ -88,7 +88,7 @@ async def main():
             await next.click()
             page_num += 1
             print('Current page:', page_num)
-            await page.sleep(np.random.uniform(0.25, 1))
+            await page.sleep(np.random.uniform(1, 3))
         except:
             print("Open last_image.jpg to check if you reach your last page or get block by captcha")
             await page.save_screenshot('.//last_image.jpg')       
@@ -102,9 +102,9 @@ async def main():
         for _ in range(5):
             # slowly scroll down to get fully rendered Javascript
             await page.scroll_down(np.random.randint(200, 350))
-            await page.sleep(np.random.uniform(0.25, 1))
+            await page.sleep(np.random.uniform(1, 3))
 
-        await page.sleep(np.random.uniform(0.25, 1))    
+        await page.sleep(np.random.uniform(1, 3))    
         # From here, you can customize your code to extract data you need.
         # It is easier to stick with BeautifulSoup or you can integrate nodriver with Scrapy also.
     
