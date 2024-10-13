@@ -6,4 +6,4 @@ Test on Shopee to scrape product data
 #### * playwright_demo
 Test on Facebook to scrape post comments
 #### * browserforge_demo
-Using browserforge to bypass the fingerprint technique
+Using browserforge to bypass the fingerprint technique (code from The Web scraping Club)
