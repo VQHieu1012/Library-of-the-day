@@ -2,6 +2,8 @@
 In this repository, I will do some tests and demo tools, frameworks, or libraries to help you with web scraping.
 
 #### * nodriver_demo
-Test on shopee to scrape product data
+Test on Shopee to scrape product data
 #### * playwright_demo
-Test on facebook to scrape post comments
+Test on Facebook to scrape post comments
+#### * browserforge_demo
+Using browserforge to bypass the fingerprint technique
