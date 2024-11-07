@@ -14,4 +14,4 @@ Using browserforge to bypass the browser fingerprint technique ✔
 
 * **undetected-playwright-patch**
 
-Patch your playwright to bypass bot detection in Browser Scan
+Patch your playwright to bypass bot detection in Browser Scan ✔
