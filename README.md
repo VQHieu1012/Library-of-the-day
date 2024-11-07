@@ -11,3 +11,7 @@ Test on Facebook to scrape post comments ✔
 * **browserforge_demo**
 
 Using browserforge to bypass the browser fingerprint technique ✔
+
+* **undetected-playwright-patch**
+
+Patch your playwright to bypass bot detection in Browser Scan
